@@ -13,8 +13,11 @@ hz    = linspace(0,srate,n);
 figure(1), clf
 
 % Zaman alanı
+
 %subplot (a,b,c) (abc)
+
 %a --> satır b --> sütun c --> konumu
+
 %değerleri değiştirerek daha iyi kavrayabilirsiniz
 subplot(211)
 timeh = plot(time,zeros(n,1));
