@@ -43,7 +43,7 @@ while 1
 % bir önceki saniyeden veri alınması
 data = getaudiodata (auddat);
 data = data (end-srate+1:end);
-    
+
 % çizimlerin güncel tutulması
 set(timeh,'YData', data);
 set(freqh,'YData', abs(fft(data)/n).^2);
