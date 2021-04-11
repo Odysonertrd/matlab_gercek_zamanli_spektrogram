@@ -29,7 +29,6 @@ set(gca,'xlim',[0 500],'ylim',[0 7]*1e-6)
 xlabel('Frekans (Hz)'), ylabel('Güç')
 title('Frekans Alanı')
 
-
 % ses kaydedici kurulumu
 auddat = audiorecorder (srate,8,1);
 
