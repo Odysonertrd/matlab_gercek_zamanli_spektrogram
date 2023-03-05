@@ -1,5 +1,5 @@
 %Gerçek Zamanlı Ses Spektrogramı Oluşturma
-%Soner Türüdü / UMCG / University of Groningen
+%Soner Türüdü
 
 %Kayıt ve analiz parametreleri
 srate = 44100/4;
